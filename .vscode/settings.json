@@ -1,0 +1,39 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "d:\\Espressif\\v5.1.2\\esp-idf",
+  "idf.pythonInstallPath": "d:\\Espressif\\tools\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-bridge.cfg"
+  ],
+  "idf.toolsPathWin": "d:\\Espressif\\tools",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "idf.portWin": "COM19",
+  "files.associations": {
+    "bsp_sys.h": "c",
+    "esp_err.h": "c",
+    "esp_log.h": "c",
+    "disp_spi.h": "c",
+    "stdio.h": "c",
+    "lvgl_helpers.h": "c",
+    "disp_driver.h": "c",
+    "spi_master.h": "c",
+    "lv_demos.h": "c",
+    "lv_demo_music.h": "c",
+    "spi_common.h": "c",
+    "cst816.h": "c",
+    "lvgl.h": "c",
+    "lv_port_indev.h": "c",
+    "uart.h": "c",
+    "gui_tasks.h": "c",
+    "lv_port_disp.h": "c",
+    "esp_freertos_hooks.h": "c",
+    "gpio.h": "c",
+    "bsp_key.h": "c",
+    "soc_caps.h": "c",
+    "bsp_hwtimer.h": "c",
+    "gui_guider.h": "c",
+    "st7789.h": "c"
+  }
+}
