@@ -1,35 +1,82 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
 
-# _Sample project_
+<style>
+.highlight{
+  color: white;
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+  padding: 5px;
+  border-radius: 5px;
+}
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+.mint_green{
+  color: white;
+  background: #adcdadf2; 
+  padding: 5px;
+  border-radius: 5px;
+}
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+.red {
+  color: #ff0000;
+}
+.green {
+  color:rgb(10, 162, 10);
+}
+.blue {
+  color:rgb(17, 0, 255);
+}
+
+.wathet {
+  color:rgb(0, 132, 255);
+}
+</style>
 
 
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+## <font size=3>sWatch</font>
+<font size=2>
 
-## Example folder contents
+### <font size=2>一、硬件说明</font>
 
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
+<div style="background:#e8f5e8;padding:10px;border-radius:6px;color:#333;">
+ℹ️ 本项目是基于 ESP32-S3-WROOM-1U-N16R8 控制器的智能手表。<br>
 
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
+- 元器件清单详见 [元器件清单](./documents/元器件清单.XLSX)
+- BOM表详见 [BOM表](./documents/InteractiveBOM_SmartWatch-Ver1.0_2025-4-18.html)
+- 触摸芯片寄存器手册 [寄存器手册](./documents/CST816S寄存器说明.pdf)
+- sWatch-Ver1.0原理图 [原理图](./documents/SCH_SmartWatch-Ver1.0_2025-04-18.pdf)
+</div>
 
-Below is short explanation of remaining files in the project folder.
 
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+
+
+</font>
+
+
+### <font size=2>二、软件构架</font>
+
+<div style="background:#e8f5e8;padding:10px;border-radius:6px;color:#333;">
+ℹ️ <br>
+
+
+</div>
+
+</font>
+
+
+
+
+### <font size=2>三、LVGL移植说明</font>
+
+<div style="background:#e8f5e8;padding:10px;border-radius:6px;color:#333;">
+ℹ️ <br>
+
+
+</div>
+
+</font>
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "eWatch",
-    "project_version":    "a35402e-dirty",
+    "project_version":    "6d16073-dirty",
     "project_path":       "C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch",
     "idf_path":           "D:/Espressif/v5.1.2/esp-idf",
     "build_dir":          "C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build",
